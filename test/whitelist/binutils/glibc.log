@@ -13,3 +13,8 @@ FAIL: indirect5d dynsym
 # This is an optimization, not a correctness issue too.
 #
 FAIL: Build pr22263-1
+#
+# Since I enbale the binutils' ld/ld-ifunc testcases, and RISC-V don't support
+# GNU_NOTE for now, just skip it.
+#
+FAIL: Reloc against IFUNC symbol in NOTE section
