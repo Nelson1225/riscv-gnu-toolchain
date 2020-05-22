@@ -22,3 +22,7 @@ FAIL: gfortran.dg/ieee/ieee_1.F90
 # Synchronization problem.
 #
 FAIL: gcc.dg/tree-prof/time-profiler-2.c
+#
+# This may be fixed when updating to gcc-10.
+#
+FAIL: gfortran.dg/continuation_6.f   -O   (test for warnings, line 261)
