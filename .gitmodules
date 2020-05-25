@@ -6,7 +6,7 @@
 	url = git@github.com:Nelson1225/riscv-gcc.git
 [submodule "riscv-glibc"]
 	path = riscv-glibc
-	url = git@github.com:riscv/riscv-glibc.git
+	url = git@github.com:VincentZWC/glibc.git
 [submodule "riscv-dejagnu"]
 	path = riscv-dejagnu
 	url = git@github.com:riscv/riscv-dejagnu.git
